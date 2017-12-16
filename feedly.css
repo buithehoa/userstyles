@@ -1,0 +1,14 @@
+@-moz-document domain('feedly.com') {
+    .list-entries .entry.selected {
+        background-color: #B2EBF2;
+    }
+
+    .list-entries .entry .summary {
+        color: #616161 !important;
+    }
+
+    .list-entries .entry.u4 {
+    	padding-top: 0.75em;
+    	padding-bottom: 0.5em;
+    }
+}
