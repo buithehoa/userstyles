@@ -1,0 +1,9 @@
+/*
+  https://userstyles.org/styles/152945/skype-by-q
+*/
+
+@-moz-document domain('web.skype.com') {
+  :root .swx p, :root .swx .fontSize-p {
+    font-size: 0.8em !important;
+  }
+}
