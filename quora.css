@@ -1,0 +1,22 @@
+/*
+	https://userstyles.org/styles/152984/quora-for-q
+*/
+
+@-moz-document url-prefix("https://www.quora.com/profile/") {
+  .AnswerViewsAboutListItem {
+    padding: 6px 12px !important;
+    background-color: #2b6dad !important;
+  }
+  .AnswerViewsAboutListItem .list_item_icon {
+    display: none !important;
+  }
+  .AnswerViewsAboutListItem .main_text {
+    font-size: 18px !important;
+    color: #E0E0E0 !important;
+  }
+  .AnswerViewsAboutListItem .detail_text {
+    font-weight: bold !important;
+    font-size: 14px !important;
+    color: #F5F5F5 !important;
+  }
+}
