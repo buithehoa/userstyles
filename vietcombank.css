@@ -1,0 +1,8 @@
+/*
+  https://userstyles.org/styles/153464/vcb-by-q
+*/
+@-moz-document url-prefix("https://www.vietcombank.com.vn/ibanking2015/") {
+  #nav ul#menu > li > a {
+		padding: 11px 8px 12px 8px !important;
+	}
+}
