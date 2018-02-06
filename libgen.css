@@ -1,32 +1,43 @@
-#searchform,
-#searchform+input {
-  font-size: 1.5em;
+@-moz-document url-prefix("http://libgen.io/search.php") {
+  body,
+  table.c {
+    font-family: helvetica;
+  }
+  #searchform,
+  #searchform+input {
+    font-size: 1.5em;
+  }
+  .paginator {
+    margin-top: 0.5em;
+  }
+  #paginator_example_bottom {
+    margin-top: 1em;
+  }
+  .paginator span a:hover {
+    padding: 0.4em 0.8em;
+    background: #0000EE;
+    color: #fff;
+  }
+  table.c {
+    font-size: 1.2em;
+  }
+  table.c tr {
+    vertical-align: middle;
+  }
+  table.c tr td {
+    padding-right: 4px;
+  }
+  table.c a[title="Libgen.io"],
+  table.c a[title="Libgen.pw"],
+  table.c a[title="Bookfi.net"],
+  table.c a[title~="Bookzz.org"] {
+    padding: 2px;
+  }
+  table.c a[title="Libgen.io"]:hover,
+  table.c a[title="Libgen.pw"]:hover,
+  table.c a[title="Bookfi.net"]:hover,
+  table.c a[title~="Bookzz.org"]:hover {
+    color: #fff;
+    background: #0000EE;
+  }
 }
-
-.paginator {
-  margin-top: 0.5em;
-}
-
-.paginator span a:hover {
-  padding: 0.4em 0.8em;
-  background: #a00000;
-  color: #fff;
-}
-
-table.c {
-  font-size: 1.2em;
-}
-
-table.c a[title="Libgen.io"],
-table.c a[title="Libgen.pw"],
-table.c a[title="Bookfi.net"],
-table.c a[title~="Bookzz.org"] {
-  color: orange;
-  margin-right: 2px;
-  padding: 0.2em;
-}
-
-table.c a[title="Libgen.io"]:hover,
-table.c a[title="Libgen.pw"]:hover,
-table.c a[title="Bookfi.net"]:hover,
-table.c a[title~="Bookzz.org"]:hover {}
