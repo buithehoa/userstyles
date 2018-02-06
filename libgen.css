@@ -18,6 +18,9 @@
     background: #0000EE;
     color: #fff;
   }
+  #paginator_example_top+script+table tr td font {
+    font-size: 1.2em;
+  }
   table.c {
     font-size: 1.2em;
   }
