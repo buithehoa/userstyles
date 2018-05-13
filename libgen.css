@@ -1,4 +1,4 @@
-@-moz-document url-prefix("http://libgen.io/search.php") {
+@-moz-document url-prefix(http://libgen.io/search.php) {
   body,
   table.c {
     font-family: helvetica;
@@ -49,5 +49,8 @@
   #paginator_example_bottom+script+table tr td:nth-child(2) font a:hover {
     color: #fff;
     background: #0000EE;
+  }
+  table.c a:visited {
+    color: #bbb;
   }
 }
