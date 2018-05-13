@@ -34,6 +34,8 @@
   }
   table.c tr td {
     padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
   }
   table.c a[title="Libgen.io"],
   table.c a[title="Libgen.pw"],
