@@ -1,0 +1,13 @@
+@-moz-document url-prefix("https://github.com/pulls") {
+  a[aria-label="1 review approval"], a[aria-label="1 review approval"]:hover {
+    color: #fff !important;
+    background-color: #0366d6 !important;
+    padding: 0.2em 0.5em;
+  }
+  a[aria-label="1 review requesting changes"], a[aria-label="1 review requesting changes"]:hover {
+    color: #fff !important;
+    background-color: #dbab09;
+    padding: 0.2em 0.5em;
+  }
+}
+
